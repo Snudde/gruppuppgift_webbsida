@@ -1,3 +1,7 @@
+* {
+    font-family: arial;
+}
+
 body {
     background-color: black;
 }
@@ -28,25 +32,28 @@ body {
         }
         
 
-* {
-    font-family: arial;
-}
 
-h1{
-    color:red;
+
+.header_section h2{
     text-align: center;
+    margin: 0 auto;
 }
 
-h2 {
+
+.video_section h1{
+    color: #ebebeb;
     text-align: center;
+    text-shadow: 2px 2px #252525;
 }
-  
-p {
-    color: red;
+
+.video_section p{
+    color: #ebebeb;
+    text-align: center;
+    text-shadow: 2px 2px #252525;
 }
 
 
-#container {
+.video_section {
     position:relative;
     width: 100%; 
     height: 100%;
@@ -59,7 +66,7 @@ p {
     height: 100%;
 }
 
-.overlay {
+.video_section_overlay {
     position:absolute;
     top:0;
     left:0;
@@ -69,10 +76,11 @@ p {
     margin-top: 10%;
 }
 
-.enterbutton {
+.video_section_button {
     color: white;
     background: red; 
     display: none;
+    
 }
 
 .blur {
@@ -80,13 +88,23 @@ p {
     filter: blur(5px);
 }
 
-.featuredsection {
+
+
+
+
+.featured_section {
     height: 20%;
     background-color: #ebebeb;
     
 }
 
-.featuredcontainer {
+.featured_section h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.featured_project {
    width: 80%; 
     height: 50%;
     position: relative;
@@ -94,18 +112,23 @@ p {
     margin-right: auto;
 }
 
-.featuredcontainer h1, p {
+.featured_project h1 {
     color: #ebebeb;
     text-shadow: 2px 2px #252525;
 }
 
-.featuredcontainer img {
+.featured_project p {
+    color: #ebebeb;
+    text-shadow: 2px 2px #252525;
+}
+
+.featured_project img {
     
     width: 100%; 
     height: 200px;     
 }
 
-.featuredoverlay {
+.featured_project_overlay {
     position:absolute;
     top:0;
     left:0;
@@ -116,14 +139,18 @@ p {
 }
 
 
-.featuredbutton {
+.featured_section_button {
         color: white;
+        font-size: 20px;
         background: purple;
-        height: 50px;
-        width: 100%;
+        height: 80px;
+        width: 80%;
+        margin-left:10%;
+        border-radius: 10px;
 }
 
-.specializesection {
+
+.specialize_section {
     
   background-image: -moz-linear-gradient( 90deg, rgb(3,3,3) 0%, rgb(7,21,29) 2%, rgb(40,77,86) 25%, rgb(110,132,145) 50%, rgb(199,188,196) 75%, rgb(245,234,233) 97%, rgb(255,255,255) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(3,3,3) 0%, rgb(7,21,29) 2%, rgb(40,77,86) 25%, rgb(110,132,145) 50%, rgb(199,188,196) 75%, rgb(245,234,233) 97%, rgb(255,255,255) 100%);
@@ -141,7 +168,7 @@ p {
                 width:100%;
             }
      
-     .enterbutton {
+     .video_section_button {
             color: white;
             background: red; 
             display: inline;
