@@ -1,23 +1,12 @@
-<<<<<<< HEAD
-html {
-    margin: 0 0 0 0;
-=======
-.
-
 body {
     background-color: black;
->>>>>>> 2557fd15aef7efec30f8f88431b97a326a14cc1f
 }
-
 
 #wrapper{
             width:100%;
             box-sizing: border-box;
             padding 0 1.6%;
             background-color: #eee;
-            margin-top:-10px;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
         }
         
         header{
@@ -50,7 +39,6 @@ h1{
 
 h2 {
     text-align: center;
-    margin: 0 0 0 0;
 }
   
 p {
@@ -172,10 +160,5 @@ p {
 p {
     color: red;
     font-size: 20px
-  }
 }
-<<<<<<< HEAD
-=======
         }
-
->>>>>>> 2557fd15aef7efec30f8f88431b97a326a14cc1f
