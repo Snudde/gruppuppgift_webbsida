@@ -101,6 +101,9 @@ body {
 	height: 600px;
 	background-color: #5c8190;
 	background: linear-gradient(360deg, #252525, #07151d 10%, #5c8190);
+	color: #ebebeb;
+	text-align: center;
+	padding-top: 20px;
 
 }
 
