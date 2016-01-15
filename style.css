@@ -1,12 +1,16 @@
-body {
-    background-color: black;
+html {
+    margin: 0 0 0 0;
 }
+
 
 #wrapper{
             width:100%;
             box-sizing: border-box;
             padding 0 1.6%;
             background-color: #eee;
+            margin-top:-10px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
         }
         
         header{
@@ -39,6 +43,7 @@ h1{
 
 h2 {
     text-align: center;
+    margin: 0 0 0 0;
 }
   
 p {
@@ -160,5 +165,5 @@ p {
 p {
     color: red;
     font-size: 20px
+  }
 }
-        }
