@@ -1,5 +1,5 @@
 * {
-    font-family: arial;
+    font-family: 'PT Sans', Arial, sans-serif;
 }
 
 body {
@@ -19,15 +19,9 @@ a {
         header{
             background-color: #252525;
             color: #ebebeb;
-            min-height: 100px;
+           
+            margin-top: -20px;
         }
-        
-       
-        
-        section {
-            background-color: #ddd;
-        }
-
 
         
 
@@ -46,12 +40,12 @@ a {
 nav {
     height: 40px;
     width: 100%;
-    background: #455868;
+    background: #252525;
     font-size: 11pt;
     font-family: 'PT Sans', Arial, sans-serif;
     font-weight: bold;
     position: relative;
-    border-bottom: 2px solid #283744;
+    border-bottom: 2px solid #ebebeb;
 }
 nav ul {
     padding: 0;
@@ -77,14 +71,34 @@ nav li {
     *zoom: 1;
 }
 
+#hamburger {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    display: inline-block;
+    float: right;
+    margin-right: 5%;
+
+}
+
+#logo {
+    display: inline-block;
+    float: left;
+    line-height: 50px;
+    margin-left: 5%;
+    height: 70px;
+    width: 120px;
+   
+}
+
 nav a {
-    color: #fff;
+    color: #ebebeb;
     display: inline-block;
     width: 100px;
     text-align: center;
     text-decoration: none;
     line-height: 40px;
-    text-shadow: 1px 1px 0px #283744;
+    text-shadow: 1px 1px 0px #252525;
 }
 
 nav li a {
@@ -96,9 +110,12 @@ nav li a {
 nav li:last-child a {
     border-right: 0;
 }
+nav li:nth-child(2) a {
+    border-right: 0;
+}
 
 nav a:hover, nav a:active {
-    background-color: #8c99a4;
+    background-color: #ebebeb;
 }
 
 nav a#pull {
@@ -120,8 +137,8 @@ nav a#pull {
         position: relative;
     }
     nav li a {
-        border-bottom: 1px solid #576979;
-        border-right: 1px solid #576979;
+        border-bottom: 1px solid #ebebeb;
+        border-right: 1px solid #ebebeb;
     }
     nav a {
         text-align: left;
@@ -140,13 +157,13 @@ nav a#pull {
     }
     nav a#pull {
         display: block;
-        background-color: #283744;
+        background-color: #252525;
         width: 100%;
         position: relative;
     }
     nav a#pull:after {
         content:"";
-        background: url('nav-icon.png') no-repeat;
+       
         width: 30px;
         height: 30px;
         display: inline-block;
@@ -161,9 +178,10 @@ nav a#pull {
         display: block;
         float: none;
         width: 100%;
+        
     }
     nav li a {
-        border-bottom: 1px solid #576979;
+        border-bottom: 1px solid #ebebeb;
     }
 }
 /*
@@ -175,7 +193,10 @@ nav a#pull {
 
 
 
-
+.header_section img {
+   
+   
+}
 
 
 
@@ -189,6 +210,7 @@ nav a#pull {
     box-sizing: border-box;
     margin-top: 10px;
     background-color: #252525;
+   
 }
 
 
@@ -203,12 +225,16 @@ nav a#pull {
     color: #ebebeb;
     text-align: center;
     text-shadow: 2px 2px #252525;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .video_section p{
     color: #ebebeb;
     text-align: center;
     text-shadow: 2px 2px #252525;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
@@ -217,6 +243,7 @@ nav a#pull {
     width: 100%; 
     height: 100%;
     margin-bottom: 20px;
+    background-color: black;
     
 }
 
@@ -254,6 +281,18 @@ nav a#pull {
 .featured_section {
     height: ;
     background-color: #ebebeb;
+    margin-top: 30px;
+    
+}
+
+
+.projects_list {
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    float:left;
+    padding: 0;
+    
     
 }
 
@@ -264,15 +303,21 @@ nav a#pull {
     margin-top: 0;
     text-align: center;
     
+    
 }
 
+
+
 .featured_project {
-   width: 80%; 
+   
     height: 50%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
 }
+
+
 
 .featured_project h1 {
     color: #ebebeb;
@@ -293,7 +338,6 @@ nav a#pull {
 .featured_project_overlay {
     position:absolute;
     top:0;
-    left:0;
     z-index:1;
     text-align: center;
     width: 100%;
@@ -318,8 +362,10 @@ nav a#pull {
     background: linear-gradient(360deg, #07151d , #07151d  10%, #5c8190 );
     color: #ebebeb ;
   width: 100%;
-  height: 1320px;
+  height: 1360px;
     margin-top: 15px;
+    
+    
 }
 
 .specialize_section h1{
@@ -330,6 +376,12 @@ nav a#pull {
     width: 60%;
     float:left;
 
+}
+
+
+.specialize_section p{
+    margin-right:5%;
+    margin-left:5%;
 }
 
 .line2 {
@@ -438,5 +490,10 @@ p {
     margin-top: 20%
     
 }
+
+
+ @media only screen and (min-width: 768px) {
+     
+ }
 
 
