@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylee.css">
+	<script src="jquery-1.12.0.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/javascript.js"></script>
     <title></title>
 </head>
 
@@ -18,7 +20,7 @@
 			<img src="pics/computer.jpg" alt="computer">
 			<h1>About us</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus eleifend lorem in finibus. Maecenas congue hendrerit fringilla. </p>
-		</div>
+		</div> 
 		
 		<div class="about_section">
 			<div class="about_first">
@@ -36,37 +38,27 @@
 			</div>
 			</div>
 			
-			<div class="skill_section">
+			<section class="skill_section">
 				<h2>Our mad skills</h2>
 				<p>we're great with this stuff</p>
 				
-				<div class="skill_section_kalle">
-					<img src="pics/boy-icon.png" alt="Icon" height="80">
-					<div class="skill_html"></div>
-					<div class="skill_design"></div>
-					<div class="skill_ui"></div>
-					<div class="skill_print"></div>
-					<p>HTML/<br> CSS</p>
-					<p>Web site<br>design</p>
-					<p>UI Design</p>
-					<p>Print</p>
-					
-				</div>
-			
-			<div class="skill_section_felicia clear">
-					<img src="pics/girl-icon.png" alt="Icon" height="80">
-					<div class="skill_html2"></div>
-					<div class="skill_design2"></div>
-					<div class="skill_ui2"></div>
-					<div class="skill_print2"></div>
-					<p>HTML/<br> CSS</p>
-					<p>Web site<br>design</p>
-					<p>UI Design</p>
-					<p>Print</p>
+				<img id="myImage" onclick="changeImage()" src="/pics/skills-girl.png" width="100" height="180">
+
+				<p>Click the light bulb to turn on/off the light.</p>
+
+				<script>
+					function changeImage() {
+						var image = document.getElementById('myImage');
+						if (image.src.match("skills-boy")) {
+							image.src = "/pics/skills-girl.png";
+						} 
+						else {
+							image.src = "/pics/skills-boy.png";
+						}
+						}
+				</script>
 				
-				</div>
-				
-			</div>
+			</section>
 		
 			<footer class="footer_section">
 				<p>Copyright 2016 Duo Design</p>	

@@ -4,7 +4,7 @@
 
 body {
 	margin: 0 auto;
-    background-color: black;
+
 
 }
 #wrapper{
@@ -105,7 +105,7 @@ section {
 
 
 .skill_section {
-	height: 1200px;
+	height: 1000px;
 	background-color: #5c8190;
 	background: linear-gradient(360deg, #07151d, #07151d 10%, #5c8190);
 	color: #ebebeb;
@@ -115,6 +115,7 @@ section {
 	padding-bottom: 0;
 
 }
+
 .footer_section {
 	background-color: #252525;
 	color: #ebebeb;
@@ -127,116 +128,6 @@ section {
 	font-size: 0.8em;
 }
 
-.skill_section_kalle img{
-	position: absolute;
-	left: 41.5%;
-	display: inline-block;
-}
-
-
-.skill_html {
-	display: inline-block;
-	width: 55px;
-	height: 200px;
-	background-color: #7e3094;
-	margin-left: 0;
-	margin-top: 100px;
-
-}
-
-.skill_design {
-	display: inline-block;
-	width: 55px;
-	height: 150px;
-	background-color: #7e3094;
-	margin-left: 10%;
-	margin-top: 150px;
-	
-}
-
-.skill_ui {
-	display: inline-block;
-	width: 55px;
-	height: 130px;
-	background-color: #7e3094;
-	margin-left: 10%;
-	margin-top: 170px;
-	
-}
-
-.skill_print {
-	display: inline-block;
-	width: 55px;
-	height: 160px;
-	background-color: #7e3094;
-	margin-left: 10%;
-	margin-top: 140px;
-	
-	
-}
-.skill_section_kalle p {
-	display: inline-block;
-	margin-right: 8%
-}
-
-.skill_section_kalle {
-	
-}
-
-.skill_html2 {
-	width: 55px;
-	height: 200px;
-	background-color: #086687;
-	margin-left: 9%;
-	margin-top: 100px;
-	float: left;
-
-}
-
-.skill_design2 {
-	width: 55px;
-	height: 150px;
-	background-color: #086687;
-	margin-left: 11%;
-	margin-top: 150px;
-	float: left;
-}
-
-.skill_ui2 {
-	width: 55px;
-	height: 130px;
-	background-color: #086687;
-	margin-left: 11%;
-	margin-top: 170px;
-	float: left;
-}
-
-.skill_print2 {
-	width: 55px;
-	height: 160px;
-	background-color: #086687;
-	margin-left: 11%;
-	margin-top: 140px;
-	float: left;
-}
-
-.skill_section_felicia p {
-	float: left;
-	margin-left: 10%;
-
-}
-.clear {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-.skill_section_felicia img {
-	position: absolute;
-	left: 41.5%;
-	display: inline-block;
-
-}
  @media only screen and (min-width: 760px) {
  	#wrapper{
         width:100%;
