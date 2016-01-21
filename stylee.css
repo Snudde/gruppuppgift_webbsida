@@ -133,12 +133,13 @@ section {
 .contact_section p {
 	color: #252525;
 	text-align: center;
+	margin: 10px 5%; 
 }
 
 .map_section iframe {
 	margin-left: 5%;
 	margin-top: 20px;
-	
+	border: 210px solid #252525;
 }
 .contact-form {
     margin: 0 auto;
@@ -148,14 +149,14 @@ section {
 
 input, textarea {
     font: 1em sans-serif;
-    width: 300px;
+    width: 400px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border: 1px solid #999;
 	margin-top: 15px;
-	margin-left: 50px;
-	
+	margin-left: 0px;
 }
+
 input {
 	height: 40px;
 }
@@ -170,11 +171,9 @@ textarea {
 }
 
 .button {
-    padding-left: 47px;
 	margin-top: 10px;
 }
 .button button {
-    margin-left: 3px;
 	background-color:#92278e;
 	-moz-border-radius:6px;
 	-webkit-border-radius:6px;
@@ -184,7 +183,7 @@ textarea {
 	cursor:pointer;
 	color:#ebebeb;
 	font-size:17px;
-	padding:9px 122px;
+	padding:9px 172px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #000000;
 }
@@ -199,7 +198,7 @@ textarea {
 
 .logo_section  {
 	margin-top: 40px;
-	margin-left: 30%
+	margin-left: 30.5%
 }
 .logo {
 	margin-left: 1%;
@@ -239,15 +238,14 @@ textarea {
     z-index: 1;
     height: 25px;
     width: 25px;
-    margin-top: 20%
+    margin-top: 20%;
     
 }
 
 
- @media only screen and (min-width: 760px) {
+ @media only screen and (min-width: 460px) {
  	#wrapper{
         width:100%;
-		
         }
 	 
 	.about_first img {
@@ -279,4 +277,5 @@ textarea {
     	width: 90%;
 		font-size: 1.5em;
 	 	}
+
  }
