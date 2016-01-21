@@ -402,14 +402,6 @@ nav a#pull {
 }
 
 
-#videobcg {
-    position:relative;
-    z-index:0;
-    width: 100%;
-    height: 300px;
-
-    background-color: red;
-}
 
 .video_section_overlay {
     position:absolute;
