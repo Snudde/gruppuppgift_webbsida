@@ -20,7 +20,7 @@ a {
             background-color: #252525;
             color: #ebebeb;
            
-            margin-top: -20px;
+            
         }
 
         
@@ -448,7 +448,7 @@ nav a#pull {
 }
   
 p {
-    color: red;
+    
     font-size: 20px
 }
         }
@@ -490,6 +490,196 @@ p {
     margin-top: 20%
     
 }
+
+
+.projects_section {
+    height: 1000px;
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+
+
+.projects_section h1{
+    color: #252525;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+.projects_section ul{
+    color: #ebebeb;
+    list-style: none;
+    text-align: center;
+    
+}
+
+.projects_section li{
+    display: inline;
+}
+
+
+
+
+
+
+.controls img{
+    height: 50px;
+}
+
+.controls{
+  padding: 2%;
+  background: #252525;
+  color: #eee;
+}
+
+label{
+  font-weight: 300;
+  
+}
+
+button{
+  display: inline-block;
+  padding: .4em .8em;
+  background: #666;
+  border: 0;
+  color: #ddd;
+  font-size: 16px;
+  font-weight: 300;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.active{
+  background: #68b8c4;
+}
+
+button:focus{
+  outline: 0 none;
+}
+
+button + label{
+  margin-left: 1em;
+}
+
+.project_overlay {
+    z-index:1;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    text-shadow: 2px 2px #252525;
+    
+   
+}
+
+.project_overlay p {
+    margin: 0;
+    color: #ebebeb;
+}
+
+
+
+.project_overlay h1 {
+   
+    color: #ebebeb;
+   
+  
+}
+
+.container{
+  padding: 2% 2% 0;
+  text-align: justify;
+  font-size: 0.1px;
+  background: #ebebeb;
+  -webkit-backface-visibility: hidden;
+    position: relative;
+    
+}
+
+.container .desc {
+    color; blue;
+    font-size: 20px;
+}
+.container img{
+    height: 100%;
+    width: 100%;
+    margin-top: - 5px;
+    
+    
+}
+
+.filter_all {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.container .mix,
+.container .gap{
+  display: inline-block;
+  width: 100%;
+    height: 200px;
+}
+
+.container .mix{
+  text-align: left;
+  background: #252525;
+  margin-bottom: 2%;
+  display: none;
+    position: relative;
+}
+
+.container .mix.category-1{
+  border-top: 5px solid green;
+}
+
+.container .mix.category-2{
+  border-top: 5px solid blue;
+}
+
+.container .mix.category-3{
+  border-top: 5px solid red;
+}
+
+
+/*
+.container .mix:after{
+  color: white;
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 4% 6%;
+  font-weight: 700;
+}
+
+.container .mix:before{
+  content: '';
+  display: inline-block;
+  padding-top: 60%;
+}
+*/
+
+
+
+@media all and (min-width: 420px){
+  .container .mix,
+  .container .gap{
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 640px){
+  .container .mix,
+  .container .gap{
+    width: 23.5%;
+  }
+}
+
+
+
+
 
 
  @media only screen and (min-width: 768px) {

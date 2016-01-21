@@ -17,8 +17,8 @@ $(window).resize(function(){
 });
 
 
-var options = {
-  valueNames: [ 'name', 'born' ]
-};
+// On document ready:
 
-var userList = new List('users', options);
+$(function(){
+  $('#Container').mixItUp();
+});
