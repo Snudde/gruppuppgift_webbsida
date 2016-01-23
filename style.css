@@ -155,7 +155,7 @@ nav a#pull {
     }
 }
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 460px) {
     nav {
         border-bottom: 0;
     }
@@ -237,6 +237,7 @@ nav a#pull {
 .video_section {
    
     height: 400px;
+    width: 100%;
     
 }
 
@@ -247,30 +248,35 @@ nav a#pull {
     position: relative;
 }    
     
-    
+
 
 .video_section h1{
    
+    width: 100%;
     color: #ebebeb;
     text-align: center;
     position: absolute;
     z-index: 1;
     line-height: 300px;
-    margin-left: 30px;
-    margin-bottom: 10px;
+  
+   
    
 }
 
 .video_section p{
     
-    color: #ebebeb;
+     color: #ebebeb;
     text-align: center;
     position: absolute;
     z-index: 1;
     line-height: 350px;
+    width: 90%;
+   
+
  
     
 }
+
 
 
 
@@ -368,9 +374,16 @@ nav a#pull {
     background: linear-gradient(360deg, #07151d , #07151d  10%, #5c8190 );
     color: #ebebeb ;
   width: 100%;
-  height: 1360px;
+  height: 1380px;
     margin-top: 15px;
 
+}
+
+
+.specialize_list {
+    list-style: none;
+    padding: 0;
+    
 }
 
 
@@ -410,9 +423,13 @@ nav a#pull {
 }
 
 .specialize_section img{
-    width: 70%;
+    width: 250px;
     height: 250px;
-    margin-left: 15%;
+   margin-left:auto;
+    margin-right: auto;
+    display: block;
+    
+    
 
 }
 
@@ -661,18 +678,261 @@ button + label{
 
 /* ----------- iPad 1 and 2 ----------- */
 /* Portrait and Landscape */
- @media only screen  and (min-width: 768px) 
+ @media only screen  and (min-width: 640px) 
   and (max-width: 1024px) {
-     
+      
+      
+      .featured_section {
+    height: 320px;
+       
 }
 
 
+.featured_project {
+    display: inline-block;
+    margin-left: 2.5%;
+    width: 30%;
+    float:left;
+}
+
+
+.featured_project img {   
+    width: 100%; 
+    height: 150px;     
+}
+
+
+.featured_section_button {    
+        width: 40%;
+        margin-left: 30%;
+}
+      
+      
+.line {
+    width: 30%;
+   
+}
+
+
+      
+.featured_section h2 {
+    width: 40%;
+}
+
+.line2 {
+    width: 30%;
+}
+
+.specialize_section h1 {
+    width: 40%
+}
+      
+.specialize_section {
+    height:1250px;
+}
+      
+      
+      
+.video_section {
+   
+    height: 400px;
+    
+}
+
+
+.video_section img{
+   height: 400px;
+    width: 100%;
+    position: relative;
+}    
+    
+    
+
+.video_section h1{
+    width: 100%;
+    color: #ebebeb;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    line-height: 300px;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.video_section p{
+    
+    color: #ebebeb;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    line-height: 350px;
+    width: 100%;
+     padding: 0;
+    margin: 0;
+    
+}
+      
+      
+      
+  }
+
+
 /* ----------- Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
+ @media only screen  and (min-width: 1025px)  {
+      
+      
+ .featured_section {
+    height: 320px;
+       
+}
+
+
+.featured_project {
+    display: inline-block;
+    margin-left: 2.5%;
+    width: 30%;
+    float:left;
+}
+
+
+.featured_project img {   
+    width: 100%; 
+    height: 150px;     
+}
+
+
+.featured_section_button {    
+        width: 40%;
+        margin-left: 30%;
+}
+      
+      
+.line {
+    width: 30%;
+   
+}
+
+
+      
+.featured_section h2 {
+    width: 40%;
+}
+
+.line2 {
+    width: 30%;
+}
+      
+.specialize_section h1 {
+    width: 40%;
+}
+  
+ 
+.item1 {
+
+   
+}
+     
+.item2 {
+   
+}
+.item3 {
+    
+}
+     
+.specialize_section {
+  
+  height: 570px;
+
+}
+.specialize_section img {
+    height: 200px;
+    width: 200px;
+    
+}
+
+.specialize_list {
+    list-style: none;
+    text-decoration: none;
+    margin-top: 50px
+
+}
+     
+ .specialize_list li {
+   
+    margin-left:auto;
+     margin-right: auto;
+     width: 33%;
+     max-height: 200px;
+     display: inline-block;
+}
+
+
+.specialize_section p{
+ 
+ 
+  
+   
+}
+
+.specialize_section h4{
+    text-align: center;
+     color: #ebebeb;
+    text-shadow: 2px 2px #252525;
+    clear: both;
+
+}
+
+.specialize_section img{
+    width: 300px;
+    height: 200px;
+     
+}
+
+.video_section {
+   
+    height: 400px;
+    
+}
+
+
+.video_section img{
+   height: 400px;
+    width: 100%;
+    position: relative;
+}    
+    
+    
+
+.video_section h1{
+    width: 100%;
+    color: #ebebeb;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    line-height: 300px;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.video_section p{
+    
+    color: #ebebeb;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    line-height: 350px;
+    width: 100%;
+     padding: 0;
+    margin: 0;
+    
+}
+
+
+
+
+
 }
 
 
