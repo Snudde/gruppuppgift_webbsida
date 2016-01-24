@@ -182,10 +182,13 @@ nav a#pull {
 }
 /*
 -------------------------------------------------------------- */
-
+.background_section {
+	margin-bottom: 0;
+	
+}
 .background_section img {
-	width: 100%;
 	position: relative;
+	width: 100%;
 }
 
 
@@ -219,6 +222,8 @@ nav a#pull {
 	background-color: #5c8190;
 	height: 400px;
 	color: #ebebeb;
+	width: 90%;
+	margin: auto;
 	
 }
 
@@ -228,6 +233,11 @@ nav a#pull {
 	margin-bottom: 0;
 	text-align: center;
 	
+	
+}
+
+.about_first h2 {
+
 }
 
 .about_first p:nth-child(2), .about_second p:nth-child(2) {
@@ -253,7 +263,7 @@ nav a#pull {
 
 
 .skill_section {
-	height: 1000px;
+	height: 600px;
 	background-color: #5c8190;
 	background: linear-gradient(360deg, #07151d, #07151d 10%, #5c8190);
 	color: #ebebeb;
@@ -262,6 +272,11 @@ nav a#pull {
 	margin-bottom: 0;
 	padding-bottom: 0;
 
+}
+
+.skill_section p {
+	margin-bottom: 0;
+		
 }
 /*--------------------------CONTACT-------------------------------*/
 .main_section {
@@ -390,7 +405,7 @@ nav a#pull {
 }
 
 
- @media only screen and (min-width: 760px) {
+ @media only screen and (min-width: 481px) {
  	#wrapper{
         width:100%;
         }
@@ -424,12 +439,14 @@ nav a#pull {
     	width: 90%;
 		font-size: 1.5em;
 	 	}
-	 .contact-form, .contact-form textarea, .contact-form input, .submit_button button {
-		 width: 600px;
+	 .contact-form textarea, .contact-form input, .submit_button button {
+		/* width: 600px;*/
+		 width: 100%;
 		
 	 }
 	 .contact-form {
 		 margin: auto;
+		 width: 80%;
 	 }
 	 .logo_section {
 		 width: 195px;
@@ -438,3 +455,4 @@ nav a#pull {
 		 margin-left: 5%
 	 }
  }
+
