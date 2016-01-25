@@ -38,8 +38,6 @@ a {
 
 
 
-
-
 /* =Nav
 -------------------------------------------------------------- */
 nav {
@@ -55,7 +53,7 @@ nav {
 nav ul {
     padding: 0;
     margin: 0 auto;
-    width: 600px;
+    width: 400px;
     height: 40px;
 }
 
@@ -221,9 +219,7 @@ nav a#pull {
 }
 
 
-.header_section {
-    
-}
+
 .header_section h2{
     text-align: center;
     margin: 0 auto;
@@ -232,17 +228,31 @@ nav a#pull {
 
 
 
-
+.main_logo {
+    z-index: 1;
+    position: absolute;
+    display: none;
+}
 
 .video_section {
    
     height: 400px;
     width: 100%;
     
+    
 }
 
+.video_section img {
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
 
-.video_section img{
+.video_section video {
+    display: none;
+}
+
+.main_bg{
    height: 400px;
     width: 100%;
     position: relative;
@@ -257,7 +267,9 @@ nav a#pull {
     text-align: center;
     position: absolute;
     z-index: 1;
-    line-height: 300px;
+    line-height: 250px;
+    text-shadow: 2px 2px black;
+    
   
    
    
@@ -269,8 +281,9 @@ nav a#pull {
     text-align: center;
     position: absolute;
     z-index: 1;
-    line-height: 350px;
-    width: 90%;
+    line-height: 340px;
+    width: 100%;
+    text-shadow: 2px 2px black;
    
 
  
@@ -366,6 +379,10 @@ nav a#pull {
 }
 
 
+.featured_section_button:hover {
+    background-color:#701e6f;
+}
+
 .specialize_section {
     
 
@@ -449,17 +466,6 @@ nav a#pull {
 
         
 
- @media only screen and (min-width: 480px) {
-            #wrapper{
-                width:100%;
-                
-            }
-     
-     
-     
-     
-        }
-
 
 
 
@@ -494,6 +500,10 @@ nav a#pull {
     
 }
 
+.top-button:hover {
+    
+    background-color:#701e6f;
+}
 
 .top-button img {
     z-index: 1;
@@ -678,12 +688,12 @@ button + label{
 
 /* ----------- iPad 1 and 2 ----------- */
 /* Portrait and Landscape */
- @media only screen  and (min-width: 640px) 
-  and (max-width: 1024px) {
+ @media only screen  and (min-width: 640px)  {
       
       
       .featured_section {
     height: 320px;
+         
        
 }
 
@@ -740,6 +750,10 @@ button + label{
 }
 
 
+.video_section video {
+ display: none;   
+}
+      
 .video_section img{
    height: 400px;
     width: 100%;
@@ -757,6 +771,8 @@ button + label{
     line-height: 300px;
     padding: 0;
     margin: 0;
+    font-size: 50px;
+  
    
 }
 
@@ -766,10 +782,11 @@ button + label{
     text-align: center;
     position: absolute;
     z-index: 1;
-    line-height: 350px;
+    line-height: 390px;
     width: 100%;
      padding: 0;
     margin: 0;
+    font-size: 20px;
     
 }
       
@@ -783,66 +800,78 @@ button + label{
       
       
  .featured_section {
-    height: 320px;
+    height: 530px;
+     
        
 }
+     
 
+.featured_project_overlay {
+    position:absolute;
+    top:13%;
+    z-index:1;
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+}
 
 .featured_project {
     display: inline-block;
     margin-left: 2.5%;
     width: 30%;
     float:left;
+    margin-bottom: 20px;
 }
 
 
 .featured_project img {   
     width: 100%; 
-    height: 150px;     
+    height: 250px;     
 }
 
 
 .featured_section_button {    
-        width: 40%;
-        margin-left: 30%;
+        width: 30%;
+        margin-left: 35%;
 }
       
       
 .line {
-    width: 30%;
+    width: 35%;
+   margin-top: 20px;
    
 }
 
-
+ .featured_project_overlay h1{
+     font-size: 30px;
+     
+ }
+     
+      .featured_project_overlay p{
+     font-size: 20px;
+     
+ }
       
 .featured_section h2 {
-    width: 40%;
+    width: 30%;
+    font-size: 40px;
 }
 
 .line2 {
-    width: 30%;
+    width: 35%;
+    margin-top: 50px;
 }
       
 .specialize_section h1 {
-    width: 40%;
+    width: 30%;
+    font-size: 40px;
 }
   
  
-.item1 {
-
-   
-}
-     
-.item2 {
-   
-}
-.item3 {
-    
-}
      
 .specialize_section {
   
-  height: 570px;
+  height: 600px;
 
 }
 .specialize_section img {
@@ -886,56 +915,111 @@ button + label{
 .specialize_section img{
     width: 300px;
     height: 200px;
-     
+     position: inherit;
+   
 }
 
+     
+.video_section h1{
+    line-height: 100px;
+}
+     
+     .video_section p{
+    line-height: 100px;
+}
+     
+     
 .video_section {
    
-    height: 400px;
+    height: 700px;
     
 }
-
-
-.video_section img{
-   height: 400px;
+     
+.video_section img {
+    height: 700px;
     width: 100%;
-    position: relative;
-}    
+}
+     
+
+     
+
+
+.main_bg{
+    height: 860px;
     
+} 
+     
+.main_logo {
+    display: block;
+    }
+     
     
+
+     
+
 
 .video_section h1{
     width: 100%;
+    font-size: 80px;
     color: #ebebeb;
     text-align: center;
     position: absolute;
     z-index: 1;
-    line-height: 300px;
+    top: 300px;
     padding: 0;
     margin: 0;
+    
    
 }
 
 .video_section p{
-    
+    font-size: 30px;
     color: #ebebeb;
     text-align: center;
     position: absolute;
     z-index: 1;
-    line-height: 350px;
+    top: 420px;
     width: 100%;
      padding: 0;
     margin: 0;
     
 }
 
-
-
-
-
 }
 
 
+ @media only screen  and (min-width: 1920px)  {
+     
+     .video_section {
+         height: 1060px;
+     }
+     
+     .video_section video {
+        display: block;   
+        }
+     
+     .video_section img {
+         display:none;
+     }
+     
+     .featured_project_overlay {
+    position:absolute;
+    top: 0;
+    z-index:1;
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+}
+     
+     .featured_project_overlay h1{
+     font-size: 30px;
+     
+ }
+     
+      .featured_project_overlay p{
+     font-size: 20px;
+     
+ }
 
 
 
