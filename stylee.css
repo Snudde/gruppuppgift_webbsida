@@ -326,7 +326,8 @@ nav a#pull {
 
 .main_section {
 	background-color: #ebebeb;
-	height: 1300px;
+	height: 1160px;
+	width: 100%;
 }
 
 .contact_section h1 {
@@ -336,12 +337,38 @@ nav a#pull {
 	margin-bottom: 0px;
 	margin-top: 0;
 	padding-top: 25px;
+	float: left;
+	width: 40%
 }
 
+.line6 {
+	width: 30%;
+    display: inline-block;
+    float: left;
+    border: 1px solid #5C8190;
+    height: 4px;
+    box-sizing: border-box;
+    margin-top: 43px;
+    background-color: #5C8190;
+   
+}
+.line7 {
+	width: 30%;
+    display: inline-block;
+    float: left;
+    border: 1px solid #5C8190;
+    height: 4px;
+    box-sizing: border-box;
+    margin-top: 43px;
+    background-color: #5C8190;
+	margin-bottom: 20px;
+	
+   
+}
 .contact_section p {
 	color: #252525;
 	text-align: center;
-	margin: 10px 5%;
+	
 }
 
 .map_section iframe {
@@ -353,7 +380,7 @@ nav a#pull {
 
 .info_section {
 	/*background-color: lightgrey;*/
-	width: 400px;
+	width: 80%;
 	margin: auto;
 	margin-top: 10px;
 	text-align: center;
@@ -384,14 +411,13 @@ address a {
 
 .contact-form {
 	margin: 0 auto;
-	width: 400px;
-	padding: 1em;
+	padding: 1.5em;
 }
 
 .contact-form input,
 .contact-form textarea {
 	font: 1em sans-serif;
-	width: 400px;
+	width: 100%;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border: 1px solid #999;
@@ -413,7 +439,10 @@ address a {
 	height: 100px;
 	resize: none;
 }
+.submit_button {
 
+
+}
 .submit_button button {
 	background-color: #92278e;
 	-moz-border-radius: 6px;
@@ -424,10 +453,11 @@ address a {
 	cursor: pointer;
 	color: #ebebeb;
 	font-size: 17px;
-	padding: 9px 172px;
+	padding: 9px 170px;
 	text-decoration: none;
 	text-shadow: 0px 1px 0px #000000;
 	margin-top: 10px;
+
 }
 
 .submit_button button:hover {
@@ -452,15 +482,11 @@ address a {
 	width: 170px; 
 
 }
+.logo_section a{
+	text-decoration: none;
 
-.logo_section .logo {
-	
 }
-
-
-
 /* ----------- iPad 1 and 2 ----------- */
-
 
 /* Portrait and Landscape */
 
@@ -469,8 +495,9 @@ address a {
 		width: 100%;
 	}
 	.about_section {
-		height: 860px;
+		height: 960px;
 	}
+	
 	.background_section h1 {
 		margin-top: 50px;
 		font-size: 40px;
@@ -478,6 +505,9 @@ address a {
 	.background_section p {
 		margin-top: 120px;
 		font-size: 20px;
+	}
+	.about_first {
+		height: 430px;
 	}
 	.about_first h2 {
 		text-align: right;
@@ -490,10 +520,16 @@ address a {
 		margin-left: 3%;
 		margin-right: 3%;
 		padding: 0 2% 0 2%;
+		margin-bottom: 0;
+		margin-top: 25px;
+		font-size: 16.5px;
 	}
 	.about_first p:nth-child(2) {
-		text-align: right;	
+		text-align: right;
 	}
+	.about_second {
+		height: 430px;
+	} 
 	.about_second h2 {
 		font-size: 30px;
 	}
@@ -505,6 +541,9 @@ address a {
 	}
 	.about_second p {
 		padding-right: 2%;
+		margin-bottom: 0;
+		margin-top: 25px;
+		font-size: 16.5px;
 	}	
 	
 	.skill_section img {
@@ -515,6 +554,19 @@ address a {
 		height: 650px;
 	}
 	/*--------CONTACT-----------*/
+	.contact_section h1 {
+		
+	}
+
+	.line6 {
+	
+    
+	}
+	.line7 {
+	
+
+	}
+	
 	.contact-form textarea,
 	.contact-form input,
 	.submit_button button {
@@ -545,12 +597,12 @@ address a {
 @media only screen and (min-width: 1025px) {
 	
 	.background_section h1 {
-		margin-top: 100px;
+		margin-top: 200px;
 		font-size: 45px;
 	}
 	
 	.background_section p {
-		margin-top: 160px;
+		margin-top: 260px;
 		font-size: 25px;
 	}
 	
@@ -576,6 +628,8 @@ address a {
 		float: right;
 		width: 50%;
 		margin-top: 0;
+		margin-bottom: 33px;
+		font-size: 17px;
 	}
 	.about_first p:nth-child(2) {
 		text-align: right;
@@ -592,7 +646,7 @@ address a {
 		height: 300px;
 	}
 	.about_second h2 {
-		font-size: 28px;
+		font-size: 32px;
 	}
 	.about_second h2,
 	.about_second p {
@@ -605,6 +659,8 @@ address a {
 		float: left;
 		margin-top: 0;
 		width: 50%;
+		margin-bottom: 33px;
+		font-size: 17px;
 	}
 	.about_second img {
 		height: 280px;
@@ -613,38 +669,39 @@ address a {
 	.skill_section {
 		height: 700px;
 	}
+	.skill_section h2{
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
+	.skill_section p {
+		font-size: 20px;
+	}
 	.skill_section img{
 		height: 500px;
 		width: 600px;
 	}
 	/*-----CONTACT-----*/
-	.contact_section h1 {
+	/*.contact_section h1 {
 		font-size: 3em;
-		text-align: justify;
+		text-align: center;
 		margin-bottom: 10px;
-		margin-left: 10%;
-		padding-top: 45px;
-		display: inline-block;
-		float: left
+	
+		padding-top: 45px; 
+}*/
+
+	.contact_section h1 {
+		width: 40%;
+		margin-top: 15px;
+		font-size: 40px;
 	}
-	.line {
-		width: 53.5%;
-		display: inline-block;
-		float: left;
-		border: 1px solid #5C8190;
-		height: 5px;
-		box-sizing: border-box;
-		margin-left: 20px;
-		margin-top: 72px;
-		background-color: #5C8190;
-	}
+	.line6 {
+		margin-top: 60px;
+}
+	.line7 {
+    	margin-top: 60px;	
+}
 	.contact_section p {
-		display: inline-block;
-		clear: both;
-		text-align: justify;
-		float: left;
-		margin: 10px 10%;
-		
+		margin-top: 80px;
 	}
 	.contact-form input {
 		width: 100%;
