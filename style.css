@@ -682,15 +682,15 @@ button + label{
 }
 
 .container .mix.category-1{
-  border-top: 5px solid green;
+  border-top: 5px solid #498b15;
 }
 
 .container .mix.category-2{
-  border-top: 5px solid blue;
+  border-top: 5px solid #086687;
 }
 
 .container .mix.category-3{
-  border-top: 5px solid red;
+  border-top: 5px solid #b42121;
 }
 
 
