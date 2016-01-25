@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylee.css">
 	<script src="jquery-1.12.0.min.js"></script>
-	<script language="JavaScript" type="text/javascript" src="/javascript.js"></script>
+	<script type="text/javascript" src="/gruppuppgift_webbsida/javascript.js"></script>
     <title>Duo Design - About</title>
 </head>
 
@@ -16,68 +16,79 @@
         <header class="header_section">
             
         
-       <nav class="clearfix">
+			<nav class="clearfix">
            
-    <ul class="clearfix">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="aboutus.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contactus.html">Contact</a></li>
-    </ul>
-    <a href="#" id="pull"><img src="pics/Duodesign.png" id="logo"><img src="pics/hamburger.png" id="hamburger"></a>
-</nav>
+				<ul class="clearfix">
+					<li><a href="home.html">Home</a></li>
+					<li><a href="aboutus.html">About</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="contactus.html">Contact</a></li>
+				</ul>
+				<a href="#" id="pull"><img src="pics/Duodesign.png" id="logo" alt="Logo"><img src="pics/hamburger.png" id="hamburger" alt="Menu button"></a>
+				</nav>
         
-        </header>
+        	</header>
+
+		
 		
 		<div class="background_section">
-			<img src="pics/computer.jpg" alt="computer">
 			<h1>About us</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus eleifend lorem in finibus. Maecenas congue hendrerit fringilla. </p>
+			<p>We’re a small design studio based in Israel. We love designing for the web and have been doing so since 2001. We specialize in website design and development, as well as web application design and UX. </p>
+			<figure><img src="pics/computer.jpg" alt="computer"></figure>
 		</div> 
 		
-		<div class="about_section">
+		<section class="about_section">
 			<div class="about_first">
 				
 				<h2>Kalle Salomonsson</h2>
 				<p>Founder, lead designer, drupaler</p>
 				<p>I’ve been designing and building websites since 2001. I have a bachelors degree in Industrial Design but prefer designing for the Web. I believe in creating goal oriented design that not only look great but feel and react great as well.</p>
-				<img src="pics/boy2.png" alt="boy" height="200">
+				<figure>
+					<img src="pics/boy2.png" alt="boy" height="200">
+				</figure>
 			</div>
 			<div class="about_second">
 				<h2>Felicia Norling</h2>
 				<p>Founder, lead designer, drupaler</p>
 				<p>I’ve been designing and building websites since 2001. I have a bachelors degree in Industrial Design but prefer designing for the Web.I believe in creating goal oriented design that not only look great but feel and react great as well.</p>
-				<img src="pics/girl2.png" alt="girl" height="200">
+				<figure>
+					<img src="pics/girl2.png" alt="girl" height="200">
+					</figure>
 			</div>
-			</div>
+			</section>
 			
 			<section class="skill_section">
 				<h2>Our mad skills</h2>
 				<p>we're great with this stuff</p>
 				
-				<img id="myImage" onclick="changeImage()" src="/pics/skills-girl.png" width="400" height="280">
+				<figure>
+				<img id="myImage" alt="Skills" onclick="changeImage()" src="/gruppuppgift_webbsida/pics/skills-girl2.png" width="440" height="380"></figure>
 
-				
 
 					
 				<script>
 					function changeImage() {
 						var image = document.getElementById('myImage');
-						if (image.src.match("skills-boy")) {
-							image.src = "/pics/skills-girl.png";
+						if (image.src.match("skills-boy2")) {
+							image.src = "/gruppuppgift_webbsida/pics/skills-girl2.png";
 						} 
 						else {
-							image.src = "/pics/skills-boy.png";
+							image.src = "/gruppuppgift_webbsida/pics/skills-boy2.png";
 						}
 						}
 				</script>
+				
 				
 			</section>
 		
 			<footer class="footer_section">
 				<p>Copyright Duo Design 2016</p>
          		<a href="#Home-Page-Top">
-				<div class="top-button"><img src="pics/top-button.png"></div>
+				<div class="top-button">
+					
+						<img src="pics/top-button.png">
+				
+				</div>
 				</a>
 		</footer>
 			
