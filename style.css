@@ -22,19 +22,9 @@ a {
 
             
         }
-        
-       
-
-           
+                 
             
         }
-
-
-
-
-
-
-
 
 
 
@@ -515,19 +505,18 @@ nav a#pull {
 
 
 .projects_section {
-    height: 1000px;
+    
     width: 100%;
     background-color: #ebebeb;
 }
 
-
-
-.projects_section h1{
-    color: #252525;
+.projects_section_overlay {
+     color: #252525;
     text-align: center;
     font-size: 30px;
     margin: 0;
 }
+
 
 .projects_section ul{
     color: #ebebeb;
@@ -541,35 +530,66 @@ nav a#pull {
 }
 
 
+.projects_section_header {
+   width: 40%;
+    display: inline-block;
+    float:left;
+    margin-top: 30px;
+    text-align: center;
+    color: #5C8190;
+    font-size: 30px;
+   
+    
+    
+}
 
+.line3 {
+    width: 30%;
+    display: inline-block;
+    float: left;
+    border: 1px solid #5C8190;
+    height: 5px;
+    box-sizing: border-box;
+    margin-top: 45px;
+    background-color: #5C8190;
+    margin-bottom: 90px;
+}
 
 
 
 .controls img{
     height: 50px;
+   
 }
 
 .controls{
-  padding: 2%;
+  padding: 5%;
   background: #252525;
+   
   color: #eee;
+    text-align: center;
+   
 }
 
 label{
   font-weight: 300;
+    font-size: 25px;
+    
+    
   
 }
 
 button{
   display: inline-block;
   padding: .4em .8em;
-  background: #666;
+  background: #ebebeb;
   border: 0;
   color: #ddd;
   font-size: 16px;
   font-weight: 300;
   border-radius: 4px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 button.active{
@@ -590,7 +610,7 @@ button + label{
     width: 100%;
     height: 100px;
     position: absolute;
-    top: 40%;
+    top: 30%;
     text-shadow: 2px 2px #252525;
     
    
@@ -610,6 +630,13 @@ button + label{
   
 }
 
+
+.projects_section_top {
+    background-color:white;
+    color:red;
+    height: 100px;
+}
+
 .container{
   padding: 2% 2% 0;
   text-align: justify;
@@ -617,6 +644,7 @@ button + label{
   background: #ebebeb;
   -webkit-backface-visibility: hidden;
     position: relative;
+    height: auto;
     
 }
 
@@ -627,7 +655,7 @@ button + label{
 .container img{
     height: 100%;
     width: 100%;
-    margin-top: - 5px;
+   
     
     
 }
@@ -642,7 +670,7 @@ button + label{
 .container .gap{
   display: inline-block;
   width: 100%;
-    height: 200px;
+    height: 250px;
 }
 
 .container .mix{
@@ -679,7 +707,14 @@ button + label{
 @media all and (min-width: 640px){
   .container .mix,
   .container .gap{
-    width: 23.5%;
+    width: 49%;
+  }
+}
+
+@media all and (min-width: 1024px){
+  .container .mix,
+  .container .gap{
+    width: 32%;
   }
 }
 
@@ -897,12 +932,7 @@ button + label{
 }
 
 
-.specialize_section p{
- 
- 
-  
-   
-}
+
 
 .specialize_section h4{
     text-align: center;
