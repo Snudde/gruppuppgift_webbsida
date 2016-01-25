@@ -27,6 +27,41 @@ section {
 	margin: 0 auto;
 }
 
+.footer_section {
+	background-color: #252525;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	line-height: 55px;
+	color: #ebebeb;
+}
+
+.footer_section p {
+	font-size: 12px;
+	float: left;
+	line-height: 40px;
+	margin-left: 5%;
+	margin-bottom: 0;
+}
+
+.top-button {
+	height: 50px;
+	width: 50px;
+	background-color: #92278e;
+	border-radius: 100%;
+	float: right;
+	margin-right: 5%;
+	margin-top: 5px;
+}
+
+.top-button img {
+	z-index: 1;
+	height: 25px;
+	width: 25px;
+	margin-top: 20%;
+
+}
+
 
 /* =Nav
 -------------------------------------------------------------- */
@@ -195,7 +230,8 @@ nav a#pull {
 .background_section img {
 	position: relative;
 	width: 100%;
-	max-height: 800px
+	max-height: 800px;
+
 }
 
 .background_section h1 {
@@ -216,17 +252,19 @@ nav a#pull {
 	text-align: center;
 	text-shadow: 2px 2px #252525;
 	width: 90%;
+	
 }
 
 .about_section {
 	background-color: #ebebeb;
-	height: 840px;
+	height: 950px;
+	
 }
 
 .about_first,
 .about_second {
 	background-color: #5c8190;
-	height: 400px;
+	height: 450px;
 	color: #ebebeb;
 	width: 90%;
 	margin: auto;
@@ -249,13 +287,15 @@ nav a#pull {
 
 .about_first p,
 .about_second p {
-	margin: 3%;
+	margin: 6%;
 	text-align: center;
 }
 
 .about_first img {
 	display: block;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 .about_second img {
@@ -320,17 +360,26 @@ nav a#pull {
 	border: 1px solid #5c8190;
 }
 
-.info_section p {
-	margin-left: 5px;
-	padding-bottom: 5px;
-	color: #252525;
-	margin-top: 0;
+address {
+	font-style: normal;
 }
 
-.info_section h3 {
+address a {
 	color: #252525;
+}
+.info_section p:first-child {
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+	
+
+.info_section p {
 	margin-left: 5px;
-	margin-bottom: 8px;
+	padding-bottom: 4px;
+	color: #252525;
+	margin-top: 0;
 }
 
 .contact-form {
@@ -408,40 +457,6 @@ nav a#pull {
 	
 }
 
-.footer_section {
-	background-color: #252525;
-	height: 60px;
-	width: 100%;
-	text-align: center;
-	line-height: 55px;
-	color: #ebebeb;
-}
-
-.footer_section p {
-	font-size: 12px;
-	float: left;
-	line-height: 40px;
-	margin-left: 5%;
-	margin-bottom: 0;
-}
-
-.top-button {
-	height: 50px;
-	width: 50px;
-	background-color: #92278e;
-	border-radius: 100%;
-	float: right;
-	margin-right: 5%;
-	margin-top: 5px;
-}
-
-.top-button img {
-	z-index: 1;
-	height: 25px;
-	width: 25px;
-	margin-top: 20%;
-
-}
 
 
 /* ----------- iPad 1 and 2 ----------- */
@@ -468,17 +483,16 @@ nav a#pull {
 		text-align: right;
 		padding-right: 2%;
 		font-size: 30px;
+		margin-right: 3%;
 	}
 	.about_first p {
 		text-align: justify;
-		margin-left: 0;
-		margin-right: 0;
+		margin-left: 3%;
+		margin-right: 3%;
 		padding: 0 2% 0 2%;
 	}
 	.about_first p:nth-child(2) {
-		text-align: right;
-		margin-right: 0;
-		padding-right: 2%;
+		text-align: right;	
 	}
 	.about_second h2 {
 		font-size: 30px;
@@ -486,12 +500,12 @@ nav a#pull {
 	.about_second h2,
 	.about_second p {
 		text-align: left;
-		margin-left: 0;
+		margin-left: 3%;
 		padding-left: 2%
 	}
 	.about_second p {
 		padding-right: 2%;
-	}
+	}	
 	
 	.skill_section img {
 		width: 500px;
