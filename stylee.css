@@ -17,10 +17,7 @@ header {
 	color: #ebebeb;
 }
 
-section {
-	background-color: #ddd;
-	min-height: 300px;
-}
+
 
 .header_section h2 {
 	text-align: center;
@@ -61,7 +58,9 @@ section {
 	margin-top: 20%;
 
 }
-
+.top-button:hover {
+	background-color: #701e6f;
+}
 
 nav {
     height: 40px;
@@ -347,6 +346,9 @@ nav a#pull {
 	margin-left: 0;
 	width: 100%;
 }
+.skill_section img {
+	cursor: pointer;
+}
 
 /*------------CONTACT--------------*/
 
@@ -405,12 +407,12 @@ nav a#pull {
 }
 
 .info_section {
-	/*background-color: lightgrey;*/
+	background-color: ;
 	width: 80%;
 	margin: auto;
 	margin-top: 10px;
 	text-align: center;
-	border: 1px solid #5c8190;
+	border: 2px solid #5c8190;
 }
 
 address {
@@ -418,7 +420,7 @@ address {
 }
 
 address a {
-	color: #252525;
+	color: #5c8190;
 }
 .info_section p:first-child {
 	margin-top: 10px;
@@ -431,7 +433,7 @@ address a {
 .info_section p {
 	margin-left: 5px;
 	padding-bottom: 4px;
-	color: #252525;
+	color: #5c8190;
 	margin-top: 0;
 }
 
@@ -465,10 +467,7 @@ address a {
 	height: 100px;
 	resize: none;
 }
-.submit_button {
 
-
-}
 .submit_button button {
 	background-color: #92278e;
 	-moz-border-radius: 6px;
@@ -500,9 +499,7 @@ address a {
 	margin-left: 0;
 	margin-right: 2%;
 }
-.logo_section .fb_logo {
-	margin-right: 0;
-}
+
 .logo_section {
 	margin: auto;
 	margin-top: 40px;
@@ -511,7 +508,9 @@ address a {
 }
 .logo_section a{
 	text-decoration: none;
-
+}
+figure .ig_logo:hover,figure .fb_logo:hover,figure .twitter_logo:hover {
+	background-color: lightgray;
 }
 /* ----------- iPad 1 and 2 ----------- */
 
@@ -602,7 +601,7 @@ address a {
 		margin-top: 30px
 	}
 	.main_section {
-		height: 1150px;
+		height: 1200px;
 	}
 }
 
