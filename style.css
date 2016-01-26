@@ -174,27 +174,15 @@ nav a#pull {
 /*
 -------------------------------------------------------------- */
 .line {
-	<<<<<<< HEAD width: 20%;
-	display: inline-block;
-	float: left;
-	border: 1px solid #5C8190;
-	height: 5px;
-	box-sizing: border-box;
-	margin-top: 10px;
-	background-color: #5C8190;
-}
-.header_section h2 {
-	text-align: center;
-	margin: 0 auto;
-	=======width: 20%;
+	width: 20%;
 	display: inline-block;
 	float: left;
 	height: 1px;
 	box-sizing: border-box;
-	margin-top: 12px;
+	margin-top: 13px;
 	background-color: #5C8190;
-	>>>>>>> a6333955bf7cfeb1e0b3af664a4e1e00268cfedc
 }
+
 .main_logo {
 	z-index: 1;
 	position: absolute;
@@ -205,17 +193,16 @@ nav a#pull {
 	width: 100%;
 }
 .video_section video {
-	<<<<<<< HEAD display: none;
+	display: none;
 }
 .video_section .start_bg_logo {
 	display: none;
-	height: 100px;
-	width: 200px;
+	height: 200px;
+	width: 350px;
 	z-index: 1;
 	position: absolute;
-	margin-left: 25%;
+	margin-left: 40%;
 	top: 50px;
-	text-align: center;
 }
 .video_section .start_bg_bild {
 	display: block;
@@ -244,47 +231,8 @@ nav a#pull {
 	line-height: 340px;
 	width: 100%;
 	text-shadow: 2px 2px black;
-	=======display: none;
 }
-.video_section .start_bg_logo {
-	display: none;
-	height: 50px;
-	width: 50px;
-	z-index: 1;
-	position: absolute;
-	margin-left: 25%;
-	top: 50px;
-	text-align: center;
-}
-.video_section .start_bg_bild {
-	display: block;
-	width: 100%;
-	height: 100%
-}
-.main_bg {
-	height: 400px;
-	width: 100%;
-	position: relative;
-}
-.video_section h1 {
-	width: 100%;
-	color: #ebebeb;
-	text-align: center;
-	position: absolute;
-	z-index: 1;
-	line-height: 250px;
-	text-shadow: 2px 2px black;
-}
-.video_section p {
-	color: #ebebeb;
-	text-align: center;
-	position: absolute;
-	z-index: 1;
-	line-height: 340px;
-	width: 100%;
-	text-shadow: 2px 2px black;
-	>>>>>>> a6333955bf7cfeb1e0b3af664a4e1e00268cfedc
-}
+
 .blur {
 	-webkit-filter: blur(5px);
 	filter: blur(5px);
@@ -373,22 +321,13 @@ nav a#pull {
 	margin-left: 5%;
 }
 .line2 {
-	<<<<<<< HEAD width: 20%;
-	display: inline-block;
-	float: left;
-	border: 1px solid #ebebeb;
-	height: 5px;
-	box-sizing: border-box;
-	margin-top: 30px;
-	background-color: #ebebeb;
-	=======width: 20%;
+	width: 20%;
 	display: inline-block;
 	float: left;
 	height: 1px;
 	box-sizing: border-box;
 	margin-top: 33px;
 	background-color: #ebebeb;
-	>>>>>>> a6333955bf7cfeb1e0b3af664a4e1e00268cfedc
 }
 .specialize_section h4 {
 	text-align: center;
@@ -1291,48 +1230,9 @@ button + label {
 		height: 1200px;
 	}
 }
-<<<<<<< HEAD
+
 /* ----------- Retina Screens ----------- */
-=======@media only screen and (min-width: 1920px) {
-	.video_section {
-		height: auto;
-	}
-	
-	.video_section video {
-		display: block;
-	}
-	
-	.video_section .start_bg_logo {
-		display: block;
-		height: 300px;
-		width: 400px;
-		z-index: 1;
-		position: absolute;
-		margin-left: 40%;
-	}
-	
-	.video_section .start_bg_bild {
-		display: none;
-	}
-	
-	.featured_project_overlay {
-		position: absolute;
-		top: 0;
-		z-index: 1;
-		text-align: center;
-		width: 100%;
-		margin-top: 10%;
-	}
-	
-	.featured_project_overlay h1 {
-		font-size: 30px;
-	}
-	
-	.featured_project_overlay p {
-		font-size: 20px;
-	}
-}
->>>>>>> a6333955bf7cfeb1e0b3af664a4e1e00268cfedc @media only screen and (min-width: 1025px) {
+ @media only screen and (min-width: 1025px) {
 	.background_section h1 {
 		margin-top: 200px;
 		font-size: 45px;
