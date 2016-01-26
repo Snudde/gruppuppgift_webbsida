@@ -315,9 +315,37 @@ nav a#pull {
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
+.skill_section h2{
+	float: left;
+	width: 40%;
+	margin-bottom: 0;
+}
+.skill_line1 {
+	width: 30%;
+    display: inline-block;
+    float: left;
+    height: 4px;
+    box-sizing: border-box;
+    margin-top: 33px;
+    background-color: #ebebeb;
+   
+}
+.skill_line2 {
+	width: 30%;
+    display: inline-block;
+    float: left;
+    height: 4px;
+    box-sizing: border-box;
+    margin-top: 33px;
+    background-color: #ebebeb;
+	margin-bottom: 20px;
+	
+   
+}
 
 .skill_section p {
-	margin-bottom: 0;
+	margin-bottom: 50px;
+	margin-top: 90px;
 }
 .skill_section figure {
 	margin-left: 0;
@@ -328,7 +356,7 @@ nav a#pull {
 
 .main_section {
 	background-color: #ebebeb;
-	height: 1160px;
+	height: 1240px;
 	width: 100%;
 }
 
@@ -337,7 +365,7 @@ nav a#pull {
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 0px;
-	margin-top: 0;
+	margin-top: 20px;
 	padding-top: 25px;
 	float: left;
 	width: 40%
@@ -350,7 +378,7 @@ nav a#pull {
     border: 1px solid #5C8190;
     height: 4px;
     box-sizing: border-box;
-    margin-top: 43px;
+    margin-top: 63px;
     background-color: #5C8190;
    
 }
@@ -361,7 +389,7 @@ nav a#pull {
     border: 1px solid #5C8190;
     height: 4px;
     box-sizing: border-box;
-    margin-top: 43px;
+    margin-top: 63px;
     background-color: #5C8190;
 	margin-bottom: 20px;
 	
@@ -370,7 +398,7 @@ nav a#pull {
 .contact_section p {
 	color: #252525;
 	text-align: center;
-	
+	margin-top: 105px;
 }
 
 .map_section iframe {
@@ -455,10 +483,11 @@ address a {
 	cursor: pointer;
 	color: #ebebeb;
 	font-size: 17px;
-	padding: 9px 170px;
+	padding: 9px 70px;
 	text-decoration: none;
 	text-shadow: 0px 1px 0px #000000;
 	margin-top: 10px;
+	width: 100%;
 
 }
 
@@ -745,7 +774,7 @@ address a {
 	.info_section {
 		float: left;
 		display: inline-block;
-		margin-top: 20px;
+		margin-top: 30px;
 		width: 38%;
 	}
 	.logo_section {
