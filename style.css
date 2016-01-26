@@ -174,7 +174,7 @@ nav a#pull {
 /*
 -------------------------------------------------------------- */
 .line {
-	width: 20%;
+	<<<<<<< HEAD width: 20%;
 	display: inline-block;
 	float: left;
 	border: 1px solid #5C8190;
@@ -186,6 +186,14 @@ nav a#pull {
 .header_section h2 {
 	text-align: center;
 	margin: 0 auto;
+	=======width: 20%;
+	display: inline-block;
+	float: left;
+	height: 1px;
+	box-sizing: border-box;
+	margin-top: 12px;
+	background-color: #5C8190;
+	>>>>>>> a6333955bf7cfeb1e0b3af664a4e1e00268cfedc
 }
 .main_logo {
 	z-index: 1;
@@ -197,7 +205,7 @@ nav a#pull {
 	width: 100%;
 }
 .video_section video {
-	display: none;
+	<<<<<<< HEAD display: none;
 }
 .video_section .start_bg_logo {
 	display: none;
@@ -236,6 +244,46 @@ nav a#pull {
 	line-height: 340px;
 	width: 100%;
 	text-shadow: 2px 2px black;
+	=======display: none;
+}
+.video_section .start_bg_logo {
+	display: none;
+	height: 50px;
+	width: 50px;
+	z-index: 1;
+	position: absolute;
+	margin-left: 25%;
+	top: 50px;
+	text-align: center;
+}
+.video_section .start_bg_bild {
+	display: block;
+	width: 100%;
+	height: 100%
+}
+.main_bg {
+	height: 400px;
+	width: 100%;
+	position: relative;
+}
+.video_section h1 {
+	width: 100%;
+	color: #ebebeb;
+	text-align: center;
+	position: absolute;
+	z-index: 1;
+	line-height: 250px;
+	text-shadow: 2px 2px black;
+}
+.video_section p {
+	color: #ebebeb;
+	text-align: center;
+	position: absolute;
+	z-index: 1;
+	line-height: 340px;
+	width: 100%;
+	text-shadow: 2px 2px black;
+	>>>>>>> a6333955bf7cfeb1e0b3af664a4e1e00268cfedc
 }
 .blur {
 	-webkit-filter: blur(5px);
@@ -325,7 +373,7 @@ nav a#pull {
 	margin-left: 5%;
 }
 .line2 {
-	width: 20%;
+	<<<<<<< HEAD width: 20%;
 	display: inline-block;
 	float: left;
 	border: 1px solid #ebebeb;
@@ -333,6 +381,14 @@ nav a#pull {
 	box-sizing: border-box;
 	margin-top: 30px;
 	background-color: #ebebeb;
+	=======width: 20%;
+	display: inline-block;
+	float: left;
+	height: 1px;
+	box-sizing: border-box;
+	margin-top: 33px;
+	background-color: #ebebeb;
+	>>>>>>> a6333955bf7cfeb1e0b3af664a4e1e00268cfedc
 }
 .specialize_section h4 {
 	text-align: center;
@@ -371,22 +427,17 @@ nav a#pull {
 	line-height: 40px;
 	margin-left: 5%;
 }
-
-
 .background_section {
 	margin-bottom: 0;
 }
 .background_section figure {
 	margin: 0;
 }
-
 .background_section img {
 	position: relative;
 	width: 100%;
 	max-height: 800px;
-
 }
-
 .background_section h1 {
 	color: #ebebeb;
 	margin-top: 40px;
@@ -396,7 +447,6 @@ nav a#pull {
 	z-index: 1;
 	width: 100%;
 }
-
 .background_section p {
 	color: #ebebeb;
 	margin: 85px 5%;
@@ -405,15 +455,11 @@ nav a#pull {
 	text-align: center;
 	text-shadow: 2px 2px #252525;
 	width: 90%;
-	
 }
-
 .about_section {
 	background-color: #ebebeb;
 	height: 950px;
-	
 }
-
 .about_first,
 .about_second {
 	background-color: #5c8190;
@@ -422,7 +468,6 @@ nav a#pull {
 	width: 90%;
 	margin: auto;
 }
-
 .about_first h2,
 .about_second h2 {
 	padding-left: 2%;
@@ -430,32 +475,26 @@ nav a#pull {
 	margin-bottom: 0;
 	text-align: center;
 }
-
 .about_first p:nth-child(2),
 .about_second p:nth-child(2) {
 	color: #7e3094;
 	font-weight: bold;
 	margin-top: 7px;
 }
-
 .about_first p,
 .about_second p {
 	margin: 6%;
 	text-align: center;
 }
-
 .about_first img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-
 }
-
 .about_second img {
 	display: block;
 	margin: auto;
 }
-
 .skill_section {
 	height: 600px;
 	background-color: #5c8190;
@@ -466,31 +505,30 @@ nav a#pull {
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
-.skill_section h2{
+.skill_section h2 {
 	float: left;
 	width: 40%;
 	margin-bottom: 0;
 }
 .skill_line1 {
 	width: 30%;
-    display: inline-block;
-    float: left;
-    height: 1px;
-    box-sizing: border-box;
-    margin-top: 35px;
-    background-color: #ebebeb;  
+	display: inline-block;
+	float: left;
+	height: 1px;
+	box-sizing: border-box;
+	margin-top: 35px;
+	background-color: #ebebeb;
 }
 .skill_line2 {
 	width: 30%;
-    display: inline-block;
-    float: left;
-    height: 1px;
-    box-sizing: border-box;
-    margin-top: 35px;
-    background-color: #ebebeb;
-	margin-bottom: 20px; 
+	display: inline-block;
+	float: left;
+	height: 1px;
+	box-sizing: border-box;
+	margin-top: 35px;
+	background-color: #ebebeb;
+	margin-bottom: 20px;
 }
-
 .skill_section p {
 	margin-bottom: 50px;
 	margin-top: 90px;
@@ -504,13 +542,11 @@ nav a#pull {
 }
 
 /*------------CONTACT--------------*/
-
 .main_section {
 	background-color: #ebebeb;
 	height: 1240px;
 	width: 100%;
 }
-
 .contact_section h1 {
 	color: #5c8190;
 	font-weight: bold;
@@ -521,44 +557,37 @@ nav a#pull {
 	float: left;
 	width: 40%
 }
-
 .contact_line1 {
 	width: 30%;
-    display: inline-block;
-    float: left;
-    border: 1px solid #5C8190;
-    height: 1px;
-    box-sizing: border-box;
-    margin-top: 63px;
-    background-color: #5C8190;
-   
+	display: inline-block;
+	float: left;
+	border: 1px solid #5C8190;
+	height: 1px;
+	box-sizing: border-box;
+	margin-top: 63px;
+	background-color: #5C8190;
 }
 .contact_line2 {
 	width: 30%;
-    display: inline-block;
-    float: left;
-    border: 1px solid #5C8190;
-    height: 1px;
-    box-sizing: border-box;
-    margin-top: 63px;
-    background-color: #5C8190;
+	display: inline-block;
+	float: left;
+	border: 1px solid #5C8190;
+	height: 1px;
+	box-sizing: border-box;
+	margin-top: 63px;
+	background-color: #5C8190;
 	margin-bottom: 20px;
-	
-   
 }
 .contact_section p {
 	color: #252525;
 	text-align: center;
 	margin-top: 105px;
 }
-
 .map_section iframe {
 	margin-left: 5%;
 	margin-top: 20px;
 	width: 90%;
-	
 }
-
 .info_section {
 	background-color: ;
 	width: 80%;
@@ -567,11 +596,9 @@ nav a#pull {
 	text-align: center;
 	border: 2px solid #5c8190;
 }
-
 address {
 	font-style: normal;
 }
-
 address a {
 	color: #5c8190;
 }
@@ -581,20 +608,16 @@ address a {
 	font-size: 18px;
 	margin-bottom: 5px;
 }
-	
-
 .info_section p {
 	margin-left: 5px;
 	padding-bottom: 4px;
 	color: #5c8190;
 	margin-top: 0;
 }
-
 .contact-form {
 	margin: 0 auto;
 	padding: 1.5em;
 }
-
 .contact-form input,
 .contact-form textarea {
 	font: 1em sans-serif;
@@ -605,22 +628,18 @@ address a {
 	margin-top: 15px;
 	margin-left: 0px;
 }
-
 .contact-form input {
 	height: 40px;
 }
-
 .contact-form input:focus,
 .contact-form textarea:focus {
 	border-color: #000;
 }
-
 .contact-form textarea {
 	vertical-align: top;
 	height: 100px;
 	resize: none;
 }
-
 .submit_button button {
 	background-color: #92278e;
 	-moz-border-radius: 6px;
@@ -636,13 +655,10 @@ address a {
 	text-shadow: 0px 1px 0px #000000;
 	margin-top: 10px;
 	width: 100%;
-
 }
-
 .submit_button button:hover {
 	background-color: #701e6f;
 }
-
 .submit_button button:active {
 	position: relative;
 	top: 1px;
@@ -652,20 +668,19 @@ address a {
 	margin-left: 0;
 	margin-right: 2%;
 }
-
 .logo_section {
 	margin: auto;
 	margin-top: 40px;
-	width: 170px; 
-
+	width: 170px;
 }
-.logo_section a{
+.logo_section a {
 	text-decoration: none;
 }
-figure .ig_logo:hover,figure .fb_logo:hover,figure .twitter_logo:hover {
+figure .ig_logo:hover,
+figure .fb_logo:hover,
+figure .twitter_logo:hover {
 	background-color: lightgray;
 }
-
 .top-button {
 	height: 50px;
 	width: 50px;
@@ -836,6 +851,29 @@ button + label {
 	.container .gap {
 		width: 32%;
 	}
+}
+.video_section video {
+	display: none;
+}
+.video_section .start_bg_logo {
+	display: block;
+	height: 200px;
+	width: 200px;
+	z-index: 1;
+	position: absolute;
+	margin-left: 35%;
+	top: 100px;
+}
+.video_section .start_bg_bild {
+	display: block;
+	width: 100%;
+	height: 100%
+}
+.main_bg {
+	height: 860px;
+}
+.main_logo {
+	display: block;
 }
 
 /* ----------- iPad 1 and 2 ----------- */
@@ -1150,14 +1188,11 @@ button + label {
 		font-size: 10px;
 	}
 }
-
-
-
-
 @media only screen and (min-width: 640px) and (max-width: 1024px) {
 	#wrapper {
 		width: 100%;
 	}
+	
 	.about_section {
 		height: 960px;
 	}
@@ -1166,19 +1201,23 @@ button + label {
 		margin-top: 50px;
 		font-size: 40px;
 	}
+	
 	.background_section p {
 		margin-top: 120px;
 		font-size: 20px;
 	}
+	
 	.about_first {
 		height: 430px;
 	}
+	
 	.about_first h2 {
 		text-align: right;
 		padding-right: 2%;
 		font-size: 30px;
 		margin-right: 3%;
 	}
+	
 	.about_first p {
 		text-align: justify;
 		margin-left: 3%;
@@ -1188,32 +1227,38 @@ button + label {
 		margin-top: 25px;
 		font-size: 16.5px;
 	}
+	
 	.about_first p:nth-child(2) {
 		text-align: right;
 	}
+	
 	.about_second {
 		height: 430px;
-	} 
+	}
+	
 	.about_second h2 {
 		font-size: 30px;
 	}
+	
 	.about_second h2,
 	.about_second p {
 		text-align: left;
 		margin-left: 3%;
 		padding-left: 2%
 	}
+	
 	.about_second p {
 		padding-right: 2%;
 		margin-bottom: 0;
 		margin-top: 25px;
 		font-size: 16.5px;
-	}	
+	}
 	
 	.skill_section img {
 		width: 500px;
 		height: 450px;
 	}
+	
 	.skill_section {
 		height: 650px;
 	}
@@ -1224,30 +1269,70 @@ button + label {
 	.submit_button button {
 		width: 100%;
 	}
+	
 	.contact-form {
 		margin: auto;
 		width: 80%;
 	}
-
+	
 	.logo_section {
 		width: 170px;
 	}
+	
 	.logo_section .logo {
 		margin-left: 5%;
 	}
+	
 	.info_section {
 		margin-top: 30px
 	}
+	
 	.main_section {
 		height: 1200px;
 	}
 }
-
-
+<<<<<<< HEAD
 /* ----------- Retina Screens ----------- */
-
-@media only screen and (min-width: 1025px) {
+=======@media only screen and (min-width: 1920px) {
+	.video_section {
+		height: auto;
+	}
 	
+	.video_section video {
+		display: block;
+	}
+	
+	.video_section .start_bg_logo {
+		display: block;
+		height: 300px;
+		width: 400px;
+		z-index: 1;
+		position: absolute;
+		margin-left: 40%;
+	}
+	
+	.video_section .start_bg_bild {
+		display: none;
+	}
+	
+	.featured_project_overlay {
+		position: absolute;
+		top: 0;
+		z-index: 1;
+		text-align: center;
+		width: 100%;
+		margin-top: 10%;
+	}
+	
+	.featured_project_overlay h1 {
+		font-size: 30px;
+	}
+	
+	.featured_project_overlay p {
+		font-size: 20px;
+	}
+}
+>>>>>>> a6333955bf7cfeb1e0b3af664a4e1e00268cfedc @media only screen and (min-width: 1025px) {
 	.background_section h1 {
 		margin-top: 200px;
 		font-size: 45px;
@@ -1261,16 +1346,19 @@ button + label {
 	.about_section {
 		max-height: 700px;
 	}
+	
 	.about_first {
 		width: 75%;
 		height: 300px;
 		margin-top: 60px;
 	}
+	
 	.about_first h2 {
 		text-align: right;
 		padding-right: 2%;
 		font-size: 28px;
 	}
+	
 	.about_first p {
 		text-align: justify;
 		margin-left: 0;
@@ -1283,30 +1371,36 @@ button + label {
 		margin-bottom: 33px;
 		font-size: 17px;
 	}
+	
 	.about_first p:nth-child(2) {
 		text-align: right;
 		margin-right: 0;
 		padding-right: 2%;
 		float: right;
 	}
+	
 	.about_first img {
 		height: 340px;
 		margin-top: -110px;
 		margin-left: 0;
 	}
+	
 	.about_second {
 		width: 75%;
 		height: 300px;
 	}
+	
 	.about_second h2 {
 		font-size: 32px;
 	}
+	
 	.about_second h2,
 	.about_second p {
 		text-align: left;
 		margin-left: 0;
 		padding-left: 2%
 	}
+	
 	.about_second p {
 		padding-right: 2%;
 		float: left;
@@ -1315,60 +1409,75 @@ button + label {
 		margin-bottom: 33px;
 		font-size: 17px;
 	}
+	
 	.about_second img {
 		height: 300px;
 		margin-top: -90px;
 	}
+	
 	.skill_section {
 		height: 700px;
 	}
-	.skill_section h2{
+	
+	.skill_section h2 {
 		font-size: 40px;
 		margin-bottom: 10px;
 	}
+	
 	.skill_line1 {
 		margin-top: 53px;
 	}
+	
 	.skill_line2 {
 		margin-top: 53px;
 	}
+	
 	.skill_section p {
 		font-size: 20px;
 	}
-	.skill_section img{
+	
+	.skill_section img {
 		height: 500px;
 		width: 600px;
 	}
 	/*-----CONTACT-----*/
-
+	
 	.contact_section h1 {
 		width: 40%;
 		margin-top: 15px;
 		font-size: 40px;
 	}
+	
 	.contact_line1 {
 		margin-top: 60px;
-}
+	}
+	
 	.contact_line1 {
-    	margin-top: 60px;	
-}
+		margin-top: 60px;
+	}
+	
 	.contact_section p {
 		margin-top: 80px;
 	}
+	
 	.contact-form input {
 		width: 100%;
 		height: 60px;
 	}
+	
 	.contact-form input:nth-child(1) {
 		margin-top: 6px;
 	}
+	
 	.contact-form input:nth-child(2) {
 		margin-bottom: 8px;
 	}
+	
 	.contact-form textarea {
 		width: 100%;
 		height: 140px;
 	}
+	
 	.contact-form {
 		margin-left: 10%;
 		width: 40%;
@@ -1376,6 +1485,7 @@ button + label {
 		display: inline-block;
 		padding-left: 0;
 	}
+	
 	.submit_button button {
 		font-size: 17px;
 		padding: 9px 25px;
@@ -1383,15 +1493,18 @@ button + label {
 		margin-left: 40%;
 		width: inherit;
 	}
+	
 	.map_section iframe {
 		margin-left: 10%;
 		margin-top: 20px;
 		height: 350px;
 		width: 80%;
 	}
+	
 	.main_section {
 		height: 1000px;
 	}
+	
 	.info_section {
 		float: left;
 		display: inline-block;
@@ -1399,9 +1512,9 @@ button + label {
 		width: 38%;
 		height: 156px;
 	}
+	
 	.logo_section {
 		display: inline-block;
 		margin-left: 13%
 	}
-	
 }
