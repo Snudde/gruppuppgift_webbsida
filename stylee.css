@@ -313,9 +313,37 @@ nav a#pull {
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
+.skill_section h2{
+	float: left;
+	width: 40%;
+	margin-bottom: 0;
+}
+.skill_line1 {
+	width: 30%;
+    display: inline-block;
+    float: left;
+    height: 4px;
+    box-sizing: border-box;
+    margin-top: 33px;
+    background-color: #ebebeb;
+   
+}
+.skill_line2 {
+	width: 30%;
+    display: inline-block;
+    float: left;
+    height: 4px;
+    box-sizing: border-box;
+    margin-top: 33px;
+    background-color: #ebebeb;
+	margin-bottom: 20px;
+	
+   
+}
 
 .skill_section p {
-	margin-bottom: 0;
+	margin-bottom: 50px;
+	margin-top: 90px;
 }
 .skill_section figure {
 	margin-left: 0;
