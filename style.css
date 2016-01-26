@@ -205,10 +205,9 @@ nav a#pull {
     width: 20%;
     display: inline-block;
     float: left;
-    border: 1px solid #5C8190;
-    height: 5px;
+    height: 1px;
     box-sizing: border-box;
-    margin-top: 10px;
+    margin-top: 12px;
     background-color: #5C8190;
    
 }
@@ -243,8 +242,8 @@ nav a#pull {
      
      .video_section .start_bg_logo {
          display: none;
-         height: 100px;
-         width: 200px;
+         height: 50px;
+         width: 50px;
          z-index: 1;
          position: absolute;
          margin-left: 25%;
@@ -431,10 +430,9 @@ nav a#pull {
     width: 20%;
     display: inline-block;
     float: left;
-    border: 1px solid #ebebeb;
-    height: 5px;
+    height: 1px;
     box-sizing: border-box;
-    margin-top: 30px;
+    margin-top: 33px;
     background-color: #ebebeb;
 }
 
@@ -1007,7 +1005,7 @@ button + label{
      .video_section .start_bg_logo {
          display: block;
          height: 200px;
-         width: 300px;
+         width: 200px;
          z-index: 1;
          position: absolute;
          margin-left: 35%;
@@ -1073,7 +1071,7 @@ button + label{
  @media only screen  and (min-width: 1920px)  {
      
      .video_section {
-         height: 1060px;
+         height: auto;
      }
      
      .video_section video {
