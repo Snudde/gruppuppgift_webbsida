@@ -24,11 +24,14 @@
 .jumbotron h1 {
     text-align: center;
     color: #ebebeb !important;
+	text-shadow: 2px 2px #252525;
 }
 
 .jumbotron p {
     text-align: center;
+	font-size: 15px !important;
     color: #ebebeb;
+	text-shadow: 2px 2px #252525;
 }
 
 .about_section {
@@ -86,7 +89,7 @@
 /*-------CONTACT--------*/
 .main_section {
 	background-color: #ebebeb;
-	height: 1040px;
+	height: 1140px;
 }
 .contact_section h1 {
 	color: #5c8190;
@@ -97,8 +100,9 @@
 }
 
 .contact_section p{
-	color: #5c8190;
+	color: #252525;
 	text-align: center;
+	margin-bottom: 30px;
 }
 .contact_line1 {
 	width: 30%;
@@ -227,6 +231,9 @@ address a {
 	.jumbotron {
 		height: 600px;
 	}
+	.jumbotron p {
+		font-size: 20px !important;
+	}
 	.about_first h2, .about_first p {
 		text-align: right;
 	}
@@ -255,6 +262,12 @@ address a {
 @media only screen and (min-width: 1025px) {
 	.jumbotron {
 		height: 800px;
+	}
+	.jumbotron h1 {
+		margin-top: 100px;
+	}
+	.jumbotron p {
+		font-size: 27px !important;
 	}
 	.about_first {
 		margin-top: 60px;
