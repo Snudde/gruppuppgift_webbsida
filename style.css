@@ -387,15 +387,16 @@ nav a#pull {
         text-align: center;
         text-shadow: 2px 2px #252525;
         width: 90%;
+		font-size: 12px;
 }
 .about_section {
         background-color: #ebebeb;
-        height: 950px;
+        height: 1050px;
 }
 .about_first,
 .about_second {
         background-color: #5c8190;
-        height: 450px;
+        height: 480px;
         color: #ebebeb;
         width: 90%;
         margin: auto;
@@ -781,7 +782,7 @@ button + label {
         display: none;
 }
 .video_section .start_bg_logo {
-        display: block;
+        display: none;
         height: 200px;
         width: 200px;
         z-index: 1;
