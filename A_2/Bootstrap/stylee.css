@@ -4,7 +4,11 @@
 .nav a{
 	color: #ebebeb;
 }
-
+.nav li a {
+        border-bottom: 1px solid #ebebeb;
+        border-right: 1px solid #ebebeb;
+        
+    }
 /*
 .background_section h1 {
 	position: absolute;
@@ -39,6 +43,7 @@
 
 .about_section {
 	background-color: #ebebeb;
+
 }
 .about_first, .about_second {
 	background-color: #5c8190;
@@ -56,12 +61,13 @@
 	margin-top: 7px;
 }
 .skill_section h2{
-	float: left;
-	width: 40%;
-	margin-bottom: 0px;
+	/*float: left;*/
+	
+	margin-top: 0
+	/*margin-bottom: 0px;*/
 }
 .skill_section p {
-	margin-top: 100px;
+	margin-top: 110px;
 }
 .skill_section {
 	height: 600px;
@@ -74,9 +80,9 @@
 	padding-bottom: 0;
 }
 .skill_line1 {
-	width: 30%;
-    display: inline-block;
-    float: left;
+	width: 0%;
+    /*display: inline-block;
+    float: left;*/
     height: 2px;
     box-sizing: border-box;
     margin-top: 35px;
@@ -84,23 +90,64 @@
 }
 .skill_line2 {
 	width: 30%;
-    display: inline-block;
-    float: left;
+    /*display: inline-block;
+    float: left;*/
     height: 2px;
     box-sizing: border-box;
     margin-top: 35px;
+	/*margin-bottom: 20px; */
     background-color: #ebebeb;
-	margin-bottom: 20px; 
+	
 }
 
 footer {
 	background-color: #252525;
-    color: #ebebeb;
-    height: 50px;
-
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	color: #ebebeb;
 }
 footer p{
-	margin-top: 15px;
+	font-size: 12px;
+	float: left;
+	line-height: 40px;
+	margin-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 0;
+	
+}
+
+.top-button {
+	height: 50px;
+	width: 50px;
+	background-color: #92278e;
+	border-radius: 100%;
+	float: right;
+	margin-right: 5%;
+	margin-top: 5px;
+}
+
+.top-button img {
+	z-index: 1;
+	height: 25px;
+	width: 25px;
+	margin-top: 20%;
+}
+
+.top-button:hover {
+	background-color: #701e6f;
+}
+/* ----------- iPad 1 and 2 ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
+	.about_first h2, .about_first p {
+		text-align: right;
+	}
+	.about_second h2, .about_second p {
+		text-align: left;
+	}
 }
 /*
 .jumbotron {
