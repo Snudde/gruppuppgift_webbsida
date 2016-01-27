@@ -1078,6 +1078,8 @@ button + label {
 
         .video_section video {
                 display: block;
+            width: 100%;
+            height="auto";
         }
 
         .video_section .start_bg_logo {
