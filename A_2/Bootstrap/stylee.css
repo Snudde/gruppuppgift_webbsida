@@ -24,11 +24,14 @@
 .jumbotron h1 {
     text-align: center;
     color: #ebebeb !important;
+	text-shadow: 2px 2px #252525;
 }
 
 .jumbotron p {
     text-align: center;
+	font-size: 15px !important;
     color: #ebebeb;
+	text-shadow: 2px 2px #252525;
 }
 
 .about_section {
@@ -86,7 +89,7 @@
 /*-------CONTACT--------*/
 .main_section {
 	background-color: #ebebeb;
-	height: 1040px;
+	height: 1140px;
 }
 .contact_section h1 {
 	color: #5c8190;
@@ -94,11 +97,12 @@
 	text-align: center;
 	margin-bottom: 0px;
 	font-size: 30px;
-
 }
+
 .contact_section p{
-	color: #5c8190;
+	color: #252525;
 	text-align: center;
+	margin-bottom: 30px;
 }
 .contact_line1 {
 	width: 30%;
@@ -118,12 +122,10 @@
    
 }
 .form-horizontal .form-group {
-    margin: 0px !important;
-
-}
-.form-horizontal .form-group {
+    margin: 0 !important;
 	
 }
+
 .form-group textarea {
 	margin-top: 15px;
 	margin-bottom: 10px;
@@ -151,9 +153,9 @@
 }
 
 .info_section {
-	margin-left: 16px;
-	margin-top: 10px;
+	margin-top: 15px;
 	width: 80%;
+	margin-left: 10%;
 	text-align: center;
 	border: 2px solid #5c8190;
 	color: #5c8190;
@@ -170,8 +172,18 @@ address a {
 	font-size: 18px;
 	margin-bottom: 5px;
 }
+
+.logo_section figure {
+	display: inline-block;
+	margin-left: 0;
+	margin-right: 2%;
+}
+
 .logo_section {
-	margin-top: 30px;
+	margin: auto;
+	margin-top: 40px;
+	width: 170px; 
+
 }
 
 .footer_section {
@@ -219,6 +231,9 @@ address a {
 	.jumbotron {
 		height: 600px;
 	}
+	.jumbotron p {
+		font-size: 20px !important;
+	}
 	.about_first h2, .about_first p {
 		text-align: right;
 	}
@@ -237,6 +252,9 @@ address a {
 		width: 500px;
 		height: 450px;
 	}
+	.contact_section h1 {
+	font-size: 35px;
+}
 }
 
 /* ----------- Retina Screens ----------- */
@@ -244,6 +262,12 @@ address a {
 @media only screen and (min-width: 1025px) {
 	.jumbotron {
 		height: 800px;
+	}
+	.jumbotron h1 {
+		margin-top: 100px;
+	}
+	.jumbotron p {
+		font-size: 27px !important;
 	}
 	.about_first {
 		margin-top: 60px;
@@ -323,4 +347,12 @@ address a {
 		height: 500px;
 		width: 600px;
 	}
+	
+	/*-----CONTACT------*/
+	
+	.contact_section h1 {
+	font-size: 44px;
+}
+	.form-group textarea {
+	
 }
